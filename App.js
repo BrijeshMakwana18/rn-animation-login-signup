@@ -1,10 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-
+import Auth from './src/pages/Auth';
 export default function App() {
-  return (
-    <View>
-      <Text></Text>
-    </View>
-  );
+  return <Auth />;
 }
